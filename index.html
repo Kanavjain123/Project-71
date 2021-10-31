@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Shirdi Sai Public School</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#Campus_life">Campus Life</a></li>
+            <li><a href="#Achievements">Achievements</a></li>
+            <li><a href="#Whats_new">What's New</a></li>
+            <li><a href="#Our_Advisory">Our Advisory</a></li>
+            <li><a href="#Contact_us">Contact us</a></li>
+          </ul>
+        </div>
+    
+    </nav> 
+    <iframe width="900" height="506" src="https://www.youtube.com/embed/seHuE9llAMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://live.staticflickr.com/4809/39704276483_28584e2ef2_b.jpg">
+                    <h4 class="text-capitalize"><kbd>school church</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was established in 1978</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://i.postimg.cc/KYzWbFpF/st2.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-capitalize text-success text-left">Was built in 1980</h5>
+                    <p class="text-muted text-left">Write something about the mentioned place</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://i.postimg.cc/cLDDX2xz/st3.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize text-muted"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Was built in 1982</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-left">Write something about the mentioned place</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+            Inter School Debate On Environment Pollution <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/KztDSHbx/se1.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won first prize in inter school debate on environment pollution
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Inter School Football Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                
+                <img src="https://i.postimg.cc/sxcP1G1L/sm2.jpg" class="img-responsive img-thumbnail">
+            </div>
+            
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in inter school football competition
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Inter School Science Project Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.postimg.cc/zXzS67cY/sm3.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+              <h5 class="text-left text-success text-capitalize">Won second price in inter school Science Project competition
+                </h5>
+                <p>Write about this achievement</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="page-header" id="Whats_new">
+        <h2 class="text-capitalize">What's New</h2>
+    </div>
+    <ul class="list-group">
+
+        <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li" >
+          <h4>My school has just build a new auditorium</h4>
+          <img src="Auditorium.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+          <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >The Auditorium was need very badly because due to the large number of students all the student could not be in a place at a particular time</p>
+          </li>
+        
+    
+        <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li"  >
+         <h4   >The school has build a new library</h4>
+         <img src="Library.jpeg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12" >
+         <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12" >the old library was small and even one class will fit properly and there was no space to keep all the books and the new library and the auditorium are just build right now on the third floor.</p>
+        </li>
+    
+     
+    </ul>
+    <div class="page-header" id="Our_Advisory">
+        <h2 class="text-capitalize">Our Advisory</h2>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book"  data-toggle="modal" data-target="#First">
+        <img src="Mr.Arun Kumar.jpg" class="img-responsive">
+        <hr >
+       <p class="text-primary">Mr.Arun Kumar</p>
+      </div>
+    <div class="modal fade" id="First">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content"  >
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Mr.Arun Kumar </h4>
+            </div>
+            
+            <div class="modal-body">
+              <img src="Mr.Arun Kumar.jpg" class="img-responsive img_modal">
+              <p class="p_modal">Mr.Arun Kumar is a Special Dg Up Police<br>
+               </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div id="footer">
+    
+    <section id="Contact_us">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13970.832981077461!2d78.7201522!3d28.9070167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x936385eb90eaf46d!2sShirdi%20Sai%20Public%20School!5e0!3m2!1sen!2sin!4v1635167087433!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    </div>
+</body>
+
+</html>
